@@ -7,7 +7,7 @@ const CONFIG = {
     API_URL: 'http://localhost:3000',
   },
   production: {
-    API_URL: 'https://your-production-api.com',
+    API_URL: 'https://syncsoft-global.vercel.app',
   },
 };
 
