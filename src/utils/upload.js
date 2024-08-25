@@ -2,11 +2,10 @@
 import axios from 'axios';
 
 const CLOUD_NAME = 'dkplhsxht';
-const UPLOAD_PRESET = 'ml_default';  // Set this in your Cloudinary settings
+const UPLOAD_PRESET = 'ml_default';  
 
 export const uploadImage = async (file) => {
   const url = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
- 
   
   const formData = new FormData();
   formData.append('file', file);

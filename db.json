@@ -58,6 +58,18 @@
           "movie_name": "Akshay",
           "movie_year": "1997",
           "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597682/WIN_20240622_11_09_35_Pro_gfxnww.jpg"
+        },
+        {
+          "movie_name": "Infosys",
+          "movie_year": "1234",
+          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724613620/Screenshot_2024-06-19_161235_g5pdjv.png",
+          "id": "2024-08-25T19:20:23.507Z"
+        },
+        {
+          "movie_name": "KKKK",
+          "movie_year": "2012",
+          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724614872/jai-shri-ram-hindu-3840x2160-14453_mrdtlz.jpg",
+          "id": "2024-08-25T19:41:15.587Z"
         }
       ]
     }

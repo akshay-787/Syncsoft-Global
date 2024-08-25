@@ -1,11 +1,12 @@
 import { createContext, useEffect, useState, useContext } from 'react';
 import axios from 'axios';
-import { ToastContainer, toast } from 'react-toastify';
-
+import { toast } from 'react-toastify';
+import {API_URL} from '../utils/constant'
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
+
   const [isAuthenticated, setIsAuthenticated] = useState(false);  
   const [userData,setUserData] = useState('')
   
@@ -16,11 +17,10 @@ export const AuthProvider = ({ children }) => {
       setUserData(email)
     }
   }, []);
-  
 
   const login = async (email, password,navigate) => {
     try {
-      const response = await axios.get('http://localhost:3000/users');
+      const response = await axios.get(`${API_URL}/users`);
       const users = response.data;
       const user = users.find(user => user.email === email);
       
@@ -38,9 +38,7 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const logout = (navigate) => {
-    console.log('navigate',navigate);
-    
+  const logout = (navigate) => {    
     setIsAuthenticated(false);
     localStorage.removeItem('email');
   };

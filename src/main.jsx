@@ -4,11 +4,11 @@ import App from './App.jsx';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext.jsx';
-import MovieList from './pages/MovieList.jsx';
+import MovieList from './components/MovieList.jsx';
 import Login from './pages/Login.jsx';
 import Logout from './pages/Logout.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
-import PrivateRoute from './pages/PrivateRoute.jsx';
+import PrivateRoute from './components/PrivateRoute.jsx';
 import { ToastContainer, toast } from 'react-toastify';
 import AddMovie from './pages/AddMovie.jsx';
 import EditMovies from './pages/EditMovies.jsx'

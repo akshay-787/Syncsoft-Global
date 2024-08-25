@@ -8,6 +8,7 @@ import {API_URL} from '../utils/constant'
 const UserDataContext = createContext();
 
 export const UserDataProvider = ({ children }) => {
+  
   const [movies, setMovies] = useState([]);
   const { isAuthenticated, userData } = useAuth();
 
@@ -81,10 +82,6 @@ export const UserDataProvider = ({ children }) => {
       console.error("Error updating movie:", error.message);
     }
   };
-  
-  
-  
-
 
   return (
     <UserDataContext.Provider value={{ movies, addMovie, updateMovie }}>

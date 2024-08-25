@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter, Outlet } from 'react-router-dom'
-import Header from './pages/Header'
-import Footer from './pages/Footer';
+import Header from './components/Header'
+import Footer from './components/Footer';
 import { useAuth } from './context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
+
   const { isAuthenticated } = useAuth()
   const navigate = useNavigate();
+
   useEffect(() => {
     if (isAuthenticated) {
       navigate('/'); 
