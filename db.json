@@ -5,72 +5,7 @@
       "email": "test@test.com",
       "password": "123456",
       "movies": [
-        {
-          "movie_name": "Rajat Jain",
-          "movie_year": "9874",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597331/Fullstack-Developer-Assigments-Google-Drive_jajwzn.png",
-          "id": "2024-08-25T14:48:54.491Z"
-        },
-        {
-          "movie_name": "Ram Rajya",
-          "movie_year": "2025",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597389/jai-shri-ram-hindu-3840x2160-14453_aolhaz.jpg",
-          "id": "2024-08-25T14:49:52.119Z"
-        },
-        {
-          "id": "2024-08-25T14:52:12.078Z",
-          "movie_name": "Movie1",
-          "movie_year": "2001",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597529/movie-1_dremvx.jpg"
-        },
-        {
-          "id": "2024-08-25T14:52:33.929Z",
-          "movie_name": "Movie2",
-          "movie_year": "2002",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597551/movie-2_cdnisp.png"
-        },
-        {
-          "id": "2024-08-25T14:52:56.681Z",
-          "movie_name": "MOvie3",
-          "movie_year": "2045",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597574/movie-3_cgy1vr.png"
-        },
-        {
-          "id": "2024-08-25T14:53:20.018Z",
-          "movie_name": "Movie4",
-          "movie_year": "2012",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597597/Fullstack-Developer-Assigments-Google-Drive_qsji6m.png"
-        },
-        {
-          "id": "2024-08-25T14:53:44.407Z",
-          "movie_name": "Movie5",
-          "movie_year": "4567",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597622/Inox-Movie-_-Figma_drag_wxsp9t.png"
-        },
-        {
-          "id": "2024-08-25T14:54:12.582Z",
-          "movie_name": "2002",
-          "movie_year": "1234",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597650/movie-2_nedu1h.png"
-        },
-        {
-          "id": "2024-08-25T14:54:45.401Z",
-          "movie_name": "Akshay",
-          "movie_year": "1997",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724597682/WIN_20240622_11_09_35_Pro_gfxnww.jpg"
-        },
-        {
-          "movie_name": "Infosys",
-          "movie_year": "1234",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724613620/Screenshot_2024-06-19_161235_g5pdjv.png",
-          "id": "2024-08-25T19:20:23.507Z"
-        },
-        {
-          "movie_name": "KKKK",
-          "movie_year": "2012",
-          "image": "https://res.cloudinary.com/dkplhsxht/image/upload/v1724614872/jai-shri-ram-hindu-3840x2160-14453_mrdtlz.jpg",
-          "id": "2024-08-25T19:41:15.587Z"
-        }
+       
       ]
     }
   ]
