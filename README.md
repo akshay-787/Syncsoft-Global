@@ -10,16 +10,16 @@ Currently, two official plugins are available:
 
 #Instruction To Run project
 
-1. Install Dependencies
+1. Install Dependencies : 
     npm install
 
-2. Run Project
+2. Run Project : 
     npm run dev
 
-3. In separate terminal(Run Json server)
+3. In separate terminal(Run Json server) : 
     npx json-server --watch db.json
 
-4. Correct Id and Password to login
+4. Correct Id and Password to login : 
     email : test@test.com
     pass  : 123456
 
